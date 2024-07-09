@@ -208,9 +208,71 @@ body {
     height: 16px;
     margin-left: 5px;
 }
-.w-50{
-  width: 50%!important;
+.w-5p{
+  width: 50%;
 }
+/* Mobile & Tablet */
+@media (max-width: 1023px){
+  
+  
+  
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+  .cake {
+    margin-top: -46%;
+    margin-left: 9vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cake {
+    margin-top: -196px;
+  }
+}
+
+/* Mobile */
+@media (min-width:401px) and (max-width: 739px) {
+  .w10p{
+    width: 100%;
+  }
+  .cake{
+    left: -7vw;
+    margin-top: 18vh;
+  }
+  .candle-count-display{
+    font-size: 18px;
+  }
+
+}
+
+@media (max-width: 400px) {
+  .w10p{
+    width: 100%;
+  }
+  .candle-count-display{
+    display: none;
+  }
+  .cake{
+    left: -9vw;
+    margin-top: 13vh
+  }
+}
+
+@media (max-width: 376px) {
+  .w10p{
+    width: 100%;
+  }
+  .candle-count-display{
+    display: none;
+  }
+  .cake{
+    left: -12vw;
+    margin-top: 27vh;
+  }
+}
+
 @keyframes blink {
     0% { opacity: 0; }
     50% { opacity: 1; }
